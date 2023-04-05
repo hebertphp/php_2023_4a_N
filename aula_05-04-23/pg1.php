@@ -1,5 +1,5 @@
 <?php
 $x = 100;
-echo "x = ".++$x;
-echo "<br>x final = ".$x;
+echo "x = ".$x--;//x = 100
+echo "<br>x final = ".$x;//x final = 99
 ?>
