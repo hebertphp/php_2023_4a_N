@@ -9,6 +9,12 @@ $uf=$_POST["uf"];
 
 echo "Matrícula: $matric<br>Nome: $nome<br>";
 echo "Telefone: $telefone<br>Endereço: $endereco<br>";
-echo "UF: $uf";
+echo "UF: $uf<hr>";
+
+$sql ="
+insert into aluno(matric,nome,telefone,endereco,uf) 
+   values ($matric,'$nome','$telefone','$endereco','$uf')";
+
+echo $sql;   
 ?><hr>
 <a href="form.html">form</a><br>
