@@ -10,5 +10,6 @@ CREATE TABLE ALUNO(
     UF char(2)
 );
 */
+// 
 ?><hr>
 <a href="form.html">form</a><br>
