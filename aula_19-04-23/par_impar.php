@@ -11,11 +11,9 @@
     <form method="post" action="par_impar.php">
     Digite um número<input type="number" name="numero">
     <input type="submit" value="Enviar!!">
-    </form>
-    
+    </form><hr>  
 </body>
 </html>
-
 <?php
 /*
 Elaborar um código PHP para dado um número inteiro, 
