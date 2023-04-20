@@ -9,7 +9,7 @@
 <body>
     <h1>Par-Ímpar</h1>
     <form method="post" action="par_impar.php">
-    Digite um número<input type="number" name="numero">
+    Digite um número <input type="number" name="numero">
     <input type="submit" value="Enviar!!">
     </form><hr>  
 </body>
@@ -24,5 +24,7 @@ como mostrado a seguir:
 275 - ÍMPAR
 28 - PAR
 */
-$numero=275;
+$numero=$_POST["numero"];
+
+echo $numero;
 ?>
