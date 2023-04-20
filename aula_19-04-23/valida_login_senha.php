@@ -36,9 +36,13 @@ $senha=$_POST["senha"];
 if(count($_POST)==0){ 
     exit(); //sair ou encerrar o código aqui!
 }
+
+echo "<hr>";
+echo md5("1234");
+echo "<hr>";
 echo "<br>";
 $login_bd="bete";
-$senha_bd="1234";
+$senha_bd="81dc9bdb52d04dc20036dbd8313ed055";
 $login=$_POST["login"];
 $senha=$_POST["senha"];
 
