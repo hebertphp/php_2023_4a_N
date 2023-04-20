@@ -46,7 +46,7 @@ $senha_bd="81dc9bdb52d04dc20036dbd8313ed055";
 $login=$_POST["login"];
 $senha=$_POST["senha"];
 
-if($login==$login_bd && $senha==$senha_bd){
+if($login==$login_bd && md5($senha)==$senha_bd){
     echo "$login, acesso liberado!";
 }
 else{
