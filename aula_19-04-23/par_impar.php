@@ -24,7 +24,9 @@ como mostrado a seguir:
 275 - ÍMPAR
 28 - PAR
 */
-echo count($_POST);
+//echo count($_POST);
+
+if(count($_POST)==0){ exit(); }
 
 echo "<br>";
 $numero=$_POST["numero"];
