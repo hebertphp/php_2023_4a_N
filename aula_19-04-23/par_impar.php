@@ -24,7 +24,16 @@ como mostrado a seguir:
 275 - ÍMPAR
 28 - PAR
 */
+echo count($_POST);
+
+echo "<br>";
 $numero=$_POST["numero"];
 
-echo $numero;
+if($numero%2==0){
+    echo "$numero - PAR";
+}
+else{
+    echo "$numero - ÍMPAR";
+}
+//echo $numero;
 ?>
