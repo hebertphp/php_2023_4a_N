@@ -43,7 +43,7 @@ Saída: 4 3 2 1 0
 */
 $i=0;
 while($i<=10){
-    echo "$i ";
+    echo "😎 ";
     $i+=2;
     //$i++;$i++;
     //$i++//$i=$i+1//$i+=1
@@ -54,7 +54,16 @@ Saída: 0 2 4 6 8 10
 1) Qual o valor inicial? 0
 2) Qual a condição? $i<=10 ou $i<11 ou $i<12
 3) Qual é o contador? $i+=2
-4) Quantas vezes o looping foi executado? 6
+4) Quantas vezes o looping foi executado? 6😎
 5) Qual o valor que tornou a condição falso? 12
+*/
+echo "<h1>Do - While</h1>";
+$i=0; 
+do {
+    echo $i . "<br> ";
+    $i++;
+} while ($i < 5);
+/*
+saída:
 */
 ?>
