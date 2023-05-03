@@ -58,12 +58,12 @@ Saída: 0 2 4 6 8 10
 5) Qual o valor que tornou a condição falso? 12
 */
 echo "<h1>Do - While</h1>";
-$i=0; 
+$i=9; 
 do {
-    echo $i . "<br> ";
+    echo "$i ";
     $i++;
 } while ($i < 5);
 /*
-saída:
+saída: 0 1 2 3 4
 */
 ?>
