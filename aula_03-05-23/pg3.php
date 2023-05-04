@@ -14,6 +14,7 @@ $dados=array(10,"oi",7.5);
 echo $dados[0]."<br>";
 echo $dados[1]."<br>";
 echo $dados[2]."<hr>";
+//           0 1 2 3  4  5
 $dados=array(1,2,3,10,30,90);
 echo "<pre>";print_r($dados);echo "</pre>";
 ?>
