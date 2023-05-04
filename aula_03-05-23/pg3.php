@@ -16,5 +16,12 @@ echo $dados[1]."<br>";
 echo $dados[2]."<hr>";
 //           0 1 2 3  4  5
 $dados=array(1,2,3,10,30,90);
-echo "<pre>";print_r($dados);echo "</pre>";
+$dados[0]="Mudou";
+$dados[5]+=100;  
+echo "<pre>";print_r($dados);echo "</pre><hr>";
+$estudante=array(4231,"Belarmina",9.5);
+$estudante["ra"]=4231;
+$estudante["nome"]="Belarmina";
+$estudante["nota"]=9.5;
+echo "<pre>";print_r($estudante);echo "</pre><hr>";
 ?>
