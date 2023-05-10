@@ -13,6 +13,8 @@ echo "<hr>";
 $cli["nome"]="Adalbertino";
 $cli["cpf"]="123123128-01";
 $cli["email"]="adalbert@teste.com";
+$cli["horas"]=120;
+$cli["valor_hora"]=15.5;
 echo "Cpf: ".$cli["cpf"];
 echo "<pre>";print_r($cli);echo "</pre>";
 ?>
