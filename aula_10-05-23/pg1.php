@@ -5,5 +5,5 @@ $u="RJ";
 $uf=array("SP","RJ","TO","SC","AM");
 echo $uf[1];
 echo "<hr>";
-
+echo "<pre>";print_r($uf);echo "</pre>"
 ?>
