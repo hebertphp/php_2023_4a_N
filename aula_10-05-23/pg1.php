@@ -24,25 +24,23 @@ $aluno = array(
             array("TADS","Sicrano",345678901),
             array("TJD","Astrogildo",7890) 
             );
-      //     0                   1                                          2  3
 $arr=array(
             array(1,2,3,4,"oi"),
             array("João","Andressa","Pablo","Vinicius"),
             30,
             40
           );
-
-
-//               0 1 2 3              0       1            2       3
 echo $arr[0][4];echo "<hr>";
 echo "<pre>";print_r($arr);echo "</pre>";
 echo "<hr>";
 echo $aluno[3][2];
 echo "<pre>";print_r($aluno);echo "</pre>";
+echo "<hr>";
 $game=array(
             array("água","submarino","água","água"),
             array("Destroyer","água","hidroavião","água"),
-            array("água","água","porta-aviões","água")
+            array("água","água","porta-aviões","água"),
+            array("😲","😁","😬","🖼️")
 );
-   
+echo $game[3][3];
 ?>
