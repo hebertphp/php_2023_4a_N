@@ -42,5 +42,7 @@ $game=array(
             array("água","água","porta-aviões","água"),
             array("😲","😁","😬","🖼️")
 );
-echo $game[3][3];
+echo $game[1][0];echo "<hr>";
+echo "O ".$game[0][1]." destruiu o ".$game[2][2];
+//O submarino destruiu o porta-aviões
 ?>
