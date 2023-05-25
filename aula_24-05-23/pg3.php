@@ -6,6 +6,6 @@ $estudante=array(
 );
 echo "<pre>";print_r($estudante);echo "</pre><hr>";
 foreach($estudante as $pos=>$valor){
-    echo "$pos: <b>$valor</b><br>"
+    echo "$pos: <b>$valor</b><br>";
 }
 ?>
