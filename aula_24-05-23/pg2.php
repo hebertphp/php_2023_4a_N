@@ -10,5 +10,8 @@ echo "$x<br>";
 $x=$numero[3];
 echo "$x<br>";
 $x=$numero[4];
-echo "$x<br>";
+echo "$x<hr>";
+foreach($numero as $x){
+    echo "$x<br>";
+}
 ?>
