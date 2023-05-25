@@ -6,3 +6,4 @@ echo "PHP - 26/04/23";
 <a href="pg3.php">pg3</a><br>
 <a href="pg4.php">pg4</a><br>
 <a href="pg5.php">pg5</a><br>
+<a href="conecta.php">conecta</a><br>

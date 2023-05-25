@@ -1,5 +1,5 @@
 <?php
-$produto=array("Teclado","Monitor","CPU Gamer","Mouse")
+$produto=array("Teclado","Monitor","CPU Gamer","Mouse","Placa Mãe");
 ?>
 <table align="center" width="500" border="1">
     <tr>
@@ -9,13 +9,13 @@ $produto=array("Teclado","Monitor","CPU Gamer","Mouse")
 <?php
 foreach ($produto as $pos=>$valor){
     $pos+=1;
-    
-echo " 
-    <tr>
-        <td>$pos</td>
-        <td>$valor</td>
-    </tr>
-    ";
+
+    echo " 
+        <tr>
+            <td>$pos</td>
+            <td>$valor</td>
+        </tr>
+        ";
 }    
 ?>
 </table>    
