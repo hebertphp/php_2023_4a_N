@@ -1,10 +1,9 @@
 UF<select name="uf">
-
 <?php
-$uf=array("SP","RJ","MG","ES","RS","MT","TO","AM");
+$uf=array("SP","RJ","MG","ES","RS","MT","TO","AM","SC");
 sort($uf);
 foreach($uf as $x){
-    echo "<option value='SP'>SP</option>";
+    echo "<option value='$x'>$x</option>";
 }
 ?>
 </select><br>
