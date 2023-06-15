@@ -6,6 +6,6 @@ $senha=$_POST["senha"];
 $email=$_POST["email"];
 
 $sql="
-
+insert into user () values ()
 ";
 ?>
