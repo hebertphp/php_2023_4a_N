@@ -1,16 +1,28 @@
 <?php
 include "conecta.php";
-$sql="select login, email, data from user";
+$sql="select login, email from user";
+
 $result = mysqli_query($conn,$sql) or die (mysqli_error($conn));
+$colunas=mysqli_fetch_fields($result);
+//$col=mysql_field_name($result, 0);
+
+
+
+//echo "<pre>";print_r($colunas);echo "</pre>";
 //$row= mysqli_fetch_array($result, MYSQLI_ASSOC);
-echo "<pre>";print_r($row);echo "</pre>";
+//echo "<pre>";print_r($row);echo "</pre>";
 //$row= mysqli_fetch_array($result, MYSQLI_ASSOC);
 //$row= mysqli_fetch_array($result, MYSQLI_ASSOC);
-echo "<pre>";print_r($row);echo "</pre>";
+//echo "<pre>";print_r($row);echo "</pre>";
 ?>
 <table border="1" width="500" align="center">
     <tr>
-        <th>Login</th><th>email</th><th>data</th>
+        <?php
+        while ($fieldinfo = mysqli_fetch_field($result)) {
+            echo "<th>".$fieldinfo -> name."</th>";
+        
+          }
+        ?>
     </tr>
     <?php
     while($row=mysqli_fetch_array($result, MYSQLI_ASSOC)){
@@ -30,7 +42,6 @@ echo "<pre>";print_r($row);echo "</pre>";
     ?>
 </table>
 <?php
-echo $row["data"];
 mysqli_free_result($result);
 mysqli_close($conn);
 ?>
