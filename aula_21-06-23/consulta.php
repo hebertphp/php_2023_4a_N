@@ -1,12 +1,10 @@
 <?php
 include "conecta.php";
-$sql="select login, email from user";
+$sql="select * from user";
 
 $result = mysqli_query($conn,$sql) or die (mysqli_error($conn));
 $colunas=mysqli_fetch_fields($result);
 //$col=mysql_field_name($result, 0);
-
-
 
 //echo "<pre>";print_r($colunas);echo "</pre>";
 //$row= mysqli_fetch_array($result, MYSQLI_ASSOC);

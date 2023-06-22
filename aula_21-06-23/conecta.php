@@ -11,7 +11,7 @@ if (!$conn) {
     die("Falha ao conectar com o servidor: " . mysqli_connect_error());
 }
 else {
-    echo "Conexão efetuada com sucesso!";
+    //echo "Conexão efetuada com sucesso!";
 }
 //mysqli_close($conn);
 ?>
