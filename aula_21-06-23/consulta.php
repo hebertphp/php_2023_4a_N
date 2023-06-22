@@ -14,10 +14,18 @@ echo "<pre>";print_r($row);echo "</pre>";
     </tr>
     <?php
     while($row=mysqli_fetch_array($result, MYSQLI_ASSOC)){
+        /*
         echo "
         <tr>
             <td>".$row["login"]."</td><td>".$row["email"]."</td><td>".$row["data"]."</td>
         </tr> ";
+        */
+        echo "<tr>";
+        foreach ($row as $pos=>$valor){
+            echo "<td>$valor</td>";
+        }
+        echo "</tr>";
+
     }
     ?>
 </table>
